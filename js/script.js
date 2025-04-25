@@ -12,24 +12,24 @@ const randomNumber = Math.floor(Math.random() * 6) + 1
 // eslint-disable-next-line no-unused-vars
 function checkAge () {
   // input
-  const userAge = parseFloat(document.getElementById('user-age').value)
+  const userAge = parseFloat(document.getElementById("user-age").value)
 
   // process
   if (userAge >= 17) {
     // output
-    document.getElementById('answer').innerHTML =
-      'You can watch R movies alone.'
-  } else if (userAge >= 13){
+    document.getElementById("answer").innerHTML =
+      "You can watch R movies alone."
+  } else if (userAge >= 13) {
     // output
-    document.getElementById('answer').innerHTML =
-      'You can watch PG-13 movies alone.'
-  } else if (userAge >= 5){
+    document.getElementById("answer").innerHTML =
+      "You can watch PG-13 movies alone."
+  } else if (userAge >= 5) {
     // output
-    document.getElementById('answer').innerHTML =
-      'You can watch G or PG movies alone.'
+    document.getElementById("answer").innerHTML =
+      "You can watch G or PG movies alone."
   } else {
     // output
-    document.getElementById('answer').innerHTML =
-      'You are too young for most of the movies.'
+    document.getElementById("answer").innerHTML =
+      "You are too young for most of the movies."
   }
 }
