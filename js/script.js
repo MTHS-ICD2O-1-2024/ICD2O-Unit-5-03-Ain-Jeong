@@ -7,6 +7,7 @@
 /**
  * This function check user's age and the type of movie they can watch
  */
+// eslint-disable-next-line no-unused-vars
 function checkAge () {
   // input
   const userAge = parseFloat(document.getElementById('user-age').value)
